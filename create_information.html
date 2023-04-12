@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./assets/css/style_main.css">
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1
+/>
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>create account</title>
+<style>
+html{
+background-image: url("./assets/images/create_account_bg.png");
+background-position: center;
+background-repeat:no-repeat;
+background-size:cover;
+object-fit:contain;
+position:auto;
+width: 100%;
+height: 100%;
+background-color: rgb(217, 194, 253);
+
+}
+
+/* main container */
+.container {
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"create_account_title create_account_title"
+"enter_information enter_information"
+"enter_information enter_information"
+"sign_up sign_up";
+
+width: 100%;
+height: auto;
+object-fit:contain;
+position:auto;
+
+}
+.title{
+    font-size: 11vw;
+    margin-left: 2%;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: rgb(55, 16, 91);
+}
+.title_text{
+    margin-left: 5%;
+}
+.create_account_title {
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"account_title account_title "
+"account_title account_title "
+"connect_text connect_text";
+grid-area: create_account_title;
+object-fit:contain;
+position:auto;
+width: 100%;
+
+}
+
+.account_title {
+grid-area: account_title;
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"account_title account_title "
+"account_title account_title "
+"account_title account_title "
+
+grid-area: account_title;
+object-fit:contain;
+position:auto;
+width: 100%;
+
+}
+
+.connect_text {
+
+grid-area: connect_text;
+object-fit:contain;
+position:auto;
+width: 100%;
+margin-left: 2%;
+
+
+}
+
+.enter_information {
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"enter_information enter_information "
+"enter_information enter_information "
+"enter_information enter_information";
+grid-area: enter_information;
+width:100%;
+height:auto;
+object-fit:contain;
+position:auto;
+
+margin-bottom:5%;
+margin-top: 10%;
+
+}
+
+.email_address {
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"email_address email_address "
+"email_address email_address "
+"email_address email_address";
+grid-area: email_address;
+object-fit:contain;
+width: 100%;
+position:auto;
+margin-bottom:5%;
+margin-top: 12%;
+
+}
+
+.phone_number {
+display:grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"phone_number phone_number "
+"phone_number phone_number ";
+grid-area: phone_number;
+object-fit:contain;
+width: 100%;
+position:auto;
+margin-bottom:5%;
+margin-top: 12%;
+
+
+}
+.sign_up{
+    margin-top: 12%;
+
+}
+.sign_button {
+display: grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"submit_info submit_info"
+"submit_info submit_info";
+object-fit:contain;
+grid-area: sign_up;
+width: 100%;
+position:auto;
+margin-bottom:12%;
+
+
+}
+
+.agreement {
+grid-area:agreement;
+display:grid;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"agreement agreement"
+"agreement agreement";
+object-fit:contain;
+position:auto;
+width: 100%;
+margin-bottom:-5%;
+
+}
+.signup_button{
+    width: 100%;
+    background-color: rgb(255, 255, 152);
+    margin: 0 25% auto;
+    border-radius: 10px;
+    padding: 10px ;
+    margin-top: 25%;
+}
+.button_text{
+    color: rgb(62, 17, 101);
+    font-family: 'Poppins';
+    font-size: 7vw;
+    font-weight: bold;
+}
+.already_account {
+grid-area: already_account;
+object-fit:contain;
+position:auto;
+width: 100%;
+margin-top: 35%;
+}
+.agreement_input{
+    margin-top: 10%;
+}
+.password{
+    width: 72%;
+}
+input{
+    padding: 10px;
+}
+.email_text, .password_title, .numer_title{
+    font-size: 6vw;
+}
+
+</style>
+</head>
+<body>
+<div class="background_image"></div>
+
+<div class="container"></div>
+<div class="enter_information"></div>
+
+<div class="create_account_title"></div>
+<i class= style style=
+"height:100%;width:100%;position:auto;font-size:100%;font-family:popp
+ins;font-style:normal;border-radius:15px;margin:40%;" />
+
+<div class="account_title"></div>
+<h1 class="title">Create Account</h1>
+
+</div>
+
+<div class="connect_text">
+<div class="text_input">
+
+<i class= style style=
+
+"height:100%;width:100%;position:auto;font-size:100%;font-family:mont
+serrat;font-style:normal;border-radius:15px" />
+
+<p class="title_text">Connect with your colleagues today!</p>
+<div align="left | right | center | justify";>
+</div>
+</div>
+
+<div class="enter_information"></div>
+<div class="email_address">
+<p class="email_text">Email Address</p>
+<div class="email_input">
+
+</div>
+<label>
+<input type="text" placeholder ="Enter your email"
+
+style=
+"height:auto;width:100%;position:auto;font-size:100%;font-family:mont
+serrat;font-style:normal;border-radius:10px;padding:3%;" />
+
+</label>
+</div>
+
+<div class="phone_number">
+<p class="numer_title">Mobile Number</p>
+<div class="phone_number_input">
+</div>
+<label>
+<input class="number_input" type="text" placeholder="Enter your phone
+
+number" style=
+"height:auto;width:100%;position:auto;font-size:100%;font-family:mont
+serrat;font-style:normal;border-radius:10px;padding:3%;" />
+
+</label>
+</div>
+
+<div class="sign_up">
+<p class="password_title">Password</p>
+<div class="signup_input">
+
+<label>
+<input class="password" type="text" placeholder="Enter your password"
+
+style=
+"height:auto;position:auto;font-size:100%;font-family:mont
+serrat;font-style:normal;border-radius:10px;" />
+
+</label>
+
+</div>
+</div>
+<div class="submit_info">
+
+<label>
+
+<input type= "checkbox" name="html"
+style="height:auto;width:auto; position:auto;font-family:
+montserrat;margin:3%;padding:10%;" ;value = "html" checked> I agree
+to the terms and conditions</label>
+<div class="agreement">
+
+</div>
+
+<div class="agreement_input">
+
+<div class="sign_button">
+<button class="signup_button">
+    <a href="./create_profile.html" class="button_text" >Sign Up</a>
+</button>
+</div>
+
+<div class="already_account">
+<i class= style style=
+
+"height:100%;width:100%;position:auto;font-size:100%;font-family:mont
+serrat;font-style:normal;text-align: center" >
+
+<p> Already have an account? <u><a href="./home_page.html"> Login</a></u></p>
+<div class="already_account_input">
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

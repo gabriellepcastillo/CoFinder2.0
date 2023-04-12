@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style_main.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <style>
+    html{
+      background-color: #4e2780;
+    }
+    a:link {
+      color: black;
+      text-decoration-line: none;
+    }
+    a:hover {
+      color: black;
+      text-decoration-line: underline;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      color: white;
+      font-size: 15vw;
+      margin-top: 9%;
+      font-family: "Unbounded", cursive;
+      z-index: 1;
+      -webkit-text-stroke: 1px #f8f8f8;
+      text-shadow: 0px 2px 4px white;
+    }
+    h3 {
+      color: #4e2780;
+      font-size: 15vw;
+      margin-top: -14%;
+      font-family: "Unbounded", cursive;
+      z-index: 3;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: white;
+    }
+
+    .container {
+      width: 100%;
+      height: auto;
+      display: grid;
+      background-color: #4e2780;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+    }
+
+    .container--item {
+      background-color: #4e2780;
+      padding: 10px;
+      text-align: center;
+      margin-top: 10%;
+    }
+
+    .box1 {
+      width: 150px;
+      height: 150px;
+      background-color: white;
+      border-radius: 20px;
+      rotate: -10deg;
+      border: 1px black solid;
+      margin-left: auto;
+      margin-right: 40%;
+    }
+
+    .box2 {
+      width: 150px;
+      height: 150px;
+      background-color: #ffeca2;
+      border-radius: 20px;
+      rotate: 10deg;
+      z-index: 1;
+      margin-top: -10vw;
+      margin-right: auto;
+      margin-left: 40%;
+      border: 1px black solid;
+    }
+
+    .buttonn {
+      width: 200px;
+      height: 45px;
+      background-color: white;
+      border-radius: 20px;
+      border-bottom: 5px;
+      border-color: black;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: black;
+    }
+    .buttontext {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      margin-left: -4%;
+      margin-top: 20%;
+    }
+
+    .gif {
+      background-image: url();
+    }
+    .matchtitle {
+      grid-area: 1 / 1 / 3 / 2;
+    }
+
+    .matchboxes {
+      grid-area: 3 / 1 / 6 / 2;
+    }
+
+    .text {
+      grid-area: 6 / 1 / 8 / 2;
+    }
+
+    .button {
+      grid-area: 8 / 1 / 10 / 2;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="matchtitle">
+        <div class="matchtitle container--item">
+          <br />
+          <a href="./loading_page.html">
+            <h1>MATCH!</h1>
+          </a>
+        </div>
+      </div>
+      <div class="matchboxes">
+        <div class="matchboxes container--item">
+          <div class="box1">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="box2">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <div class="text container--item">
+          <br />
+          <br />
+          <p>Time to start guessing!</p>
+          <br />
+          <p>Enter the chat to start your conversation</p>
+        </div>
+      </div>
+      <div class="button">
+        <div class="button container--item">
+          <div class="buttonn">
+            <div class="buttontext">
+              <a href="./pixel.html"> Let's get started </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
